@@ -1,0 +1,15 @@
+
+1. **Default Value If Variable is Not Assigned Any Value**:
+   - If a variable is declared but not assigned any value, its default value is `undefined`.
+
+2. **Calculation Between Number and Undefined Results Into**:
+   - Operations involving `undefined` typically result in `NaN` (Not a Number).
+
+3. **Default Value Returned by Function**:
+   - If a function doesn't have an explicit `return` statement, it returns `undefined` by default.
+
+4. **Explain `window.document.write()`**:
+   - `window.document.write()` is a method used to write HTML expressions or strings to a document. It's often used for testing but isn't recommended for production code due to its potential side effects on the page's structure and performance.
+
+5. **Is JavaScript Object-Oriented**:
+    - Yes, JavaScript is considered an object-oriented programming language. It supports objects, inheritance through prototypes, encapsulation, and polymorphism.
