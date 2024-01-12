@@ -1,0 +1,16 @@
+
+
+1. **Predefined References [Object] in JS**:
+    - JavaScript has several predefined objects like `Object`, `Array`, `String`, `Number`, `Date`, `Math`, etc.
+
+2. **Which Version Have I Learned**:
+    - My training covers JavaScript up until January 2022.
+
+3. **Why JavaScript Is Called Client-Side**:
+    - JavaScript is primarily executed on the client-side (in the browser), providing interactivity and dynamic behavior to web pages.
+
+4. **Is JavaScript Dynamic? Explain with Examples**:
+    - Yes, JavaScript is dynamic. For instance, variables can change types, objects can have new properties added or removed at runtime, and functions can be altered during execution.
+
+5. **Parameter in Function Call and Definition Need to Be Same?**:
+    - The number of parameters should match, but their names can differ between function calls and definitions. JavaScript doesn’t enforce strict parameter name matching between calls and        definitions.
