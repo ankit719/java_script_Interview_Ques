@@ -1,0 +1,15 @@
+
+1. **Do We Need to Terminate Statements Using Semicolon in JS**:
+    - In most cases, JavaScript allows you to omit semicolons, but it’s considered good practice to use them to avoid potential issues. Automated tools might also require them for proper parsing.
+
+2. **Use of JavaScript**:
+    - JavaScript is used for web development to add interactivity, create dynamic content, build web applications, perform asynchronous tasks, and more.
+
+3. **Frameworks or Libraries Built Using JS**:
+    - Some popular JavaScript frameworks/libraries are React, Angular, Vue.js, Node.js, Express.js, jQuery, etc.
+
+4. **How to Get Count of the Given String**:
+    - You can get the count of characters in a string by using the `length` property: `const str = 'example'; console.log(str.length);`
+
+5. **What is `valueOf()` and in Which Class is it Defined**:
+    - `valueOf()` is a method in JavaScript that returns the primitive value of an object. It's defined in the `Object` prototype and can be overridden by individual objects to customize their primitive representation.
