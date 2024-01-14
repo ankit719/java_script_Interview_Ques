@@ -1,0 +1,26 @@
+
+1. **Difference Between `call` and `apply`**:
+   - Both `call` and `apply` are used to invoke functions with a specific `this` context.
+   - The difference lies in how arguments are passed:
+      - `call` takes arguments individually: `func.call(context, arg1, arg2, ...)`
+      - `apply` takes arguments as an array: `func.apply(context, [arg1, arg2, ...])`
+
+2. **How to Declare Instance Method in a Class**:
+   - In JavaScript, you can declare instance methods inside a class using the following syntax:
+     ```javascript
+     class MyClass {
+       myMethod() {
+         // Method logic
+       }
+     }
+     ```
+
+3. **When You Print an Object Internally, Which Method Is Called**:
+   - When you print an object directly, it generally calls the object's `toString()` method to convert it to a string representation. If the `toString()` method is not overridden, it returns `[object Object]`.
+
+4. **Difference Between `of` and `in` Keywords**:
+   - `of` is used in JavaScript for creating iterable objects like arrays or for looping over the values of an iterable.
+   - `in` is used to check if a property exists in an object or its prototype chain
+5. **Anonymous Function and Arrow Function**:
+    - An anonymous function is a function without a name, often assigned to a variable or used as a callback. Example: `const func = function() { /* code */ };`
+    - Arrow functions are a concise way to write functions in JavaScript, with a shorter syntax and lexical `this` binding. Example: `const add = (a, b) => a + b;`
