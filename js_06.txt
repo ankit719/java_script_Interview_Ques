@@ -1,0 +1,24 @@
+
+1. **Difference Between `push` and `unshift`**:
+   - `push` adds one or more elements to the end of an array.
+   - `unshift` adds one or more elements to the beginning of an array.
+
+3. **Difference Between `pop` and `shift`**:
+   - `pop` removes the last element from an array and returns that element.
+   - `shift` removes the first element from an array and returns that element.
+
+4. **Difference Between `find`, `filter`, and `at`**:
+   - `find` returns the first element in an array that satisfies a given condition. If no element satisfies the condition, it returns `undefined`.
+   - `filter` creates a new array with all elements that pass a test specified by a function.
+   - There's no standard `at` method in JavaScript for arrays. It might refer to accessing an element at a specific index using square brackets (`array[index]`).
+
+4. **`splice` and `slice`**:
+   - `splice` changes the contents of an array by removing or replacing existing elements and/or adding new elements.
+   - `slice` returns a shallow copy of a portion of an array into a new array, without modifying the original array.
+
+5. **How to Convert Array to String**:
+   - You can use the `join()` method to convert an array to a string:
+     ```javascript
+     const array = ['Hello', 'World'];
+     const string = array.join(', '); // Joins array elements with a comma and space
+     ```
