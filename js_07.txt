@@ -1,0 +1,32 @@
+1. **Three Different Ways to Create Objects in JS**:
+    - Object literals: `const obj = { key: 'value' };`
+    - Constructor functions: 
+      ```javascript
+      function MyClass() {
+        this.property = 'value';
+      }
+      const instance = new MyClass();
+      ```
+    - Using `Object.create()`:
+      ```javascript
+      const obj = Object.create(null);
+      obj.property = 'value';
+      ```
+
+2. **Why JS Is Called Client-Side**:
+    - JavaScript is referred to as a client-side language because it's primarily executed on the client's (user's) browser, allowing interaction with web pages and providing dynamic behavior without relying on server communication for every action.
+
+3. **Explain Callback and Self-Invoking IIFE Function**:
+    - A callback is a function passed as an argument to another function to be executed later. It's commonly used in asynchronous operations.
+    - Self-Invoking IIFE (Immediately Invoked Function Expression) is a function that runs as soon as it's defined. It's wrapped in parentheses and immediately followed by `()` to invoke it.
+
+4. **Algorithm Used in the `sort` Method**:
+    - The `sort` method typically uses a sorting algorithm called Timsort, a hybrid sorting algorithm derived from merge sort and insertion sort.
+
+
+5. **How to Convert Array to String**:
+   - You can use the `join()` method to convert an array to a string:
+     ```javascript
+     const array = ['Hello', 'World'];
+     const string = array.join(', '); // Joins array elements with a comma and space
+     ```
