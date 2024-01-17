@@ -1,0 +1,26 @@
+
+1. **Difference Between Function as Class and Class Keyword**:
+   - In ES5, functions were used as constructors to create objects that simulate classes. With the introduction of the `class` keyword in ES6, the syntax became more structured and closer to classical OOP languages.
+
+2. **How to Implement Inheritance in ES5**:
+   - In ES5, inheritance is implemented by manually setting the prototype of the child function to an instance of the parent function. Here's an example:
+     ```javascript
+     function Parent() {}
+     function Child() {}
+     Child.prototype = Object.create(Parent.prototype);
+     Child.prototype.constructor = Child;
+     ```
+
+3. **How to Implement Inheritance in ES6**:
+   - In ES6, inheritance is achieved using the `extends` keyword. Here's an example:
+     ```javascript
+     class Parent {}
+     class Child extends Parent {}
+     ```
+
+4. **How to Call Parent Class Constructor in ES5 and ES6**:
+   - In ES5, you would call the parent constructor inside the child constructor using `Parent.call(this)`.
+   - In ES6, you use `super()` inside the constructor of the child class.
+
+5. **Does JS Support Method Overloading?**:
+   - No, JavaScript doesn't support method overloading directly. If you declare multiple functions with the same name, the last declaration will overwrite the previous ones.
