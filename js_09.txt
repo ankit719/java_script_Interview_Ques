@@ -1,0 +1,15 @@
+
+1. **How to Implement Method Overriding in JS**:
+   - Method overriding occurs when a method in a child class has the same name and signature as a method in its parent class. It happens implicitly when a child class defines a method that already exists in the parent class.
+
+2. **Do We Have Constructor Overloading in JS**:
+   - JavaScript doesn't have native support for constructor overloading like some other languages. However, you can simulate it by checking the number or type of arguments passed to the constructor.
+
+3. **What Is Top Level Class**:
+   - In JavaScript, a top-level class refers to a class defined at the outermost scope, not nested within any other class or function.
+
+4. **What Is Closure**:
+   - A closure is the combination of a function and the lexical environment within which that function was declared. It allows a function to access variables from its outer scope even after the outer function has finished executing.
+
+5. **Big Fat Arrow in JS**:
+    - The "fat arrow" or arrow function (`=>`) is a shorter syntax for writing functions in JavaScript, providing a more concise way to write functions compared to traditional function expressions.
