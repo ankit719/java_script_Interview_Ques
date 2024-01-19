@@ -1,0 +1,16 @@
+
+1. **Difference Between Rest and Spread**:
+    - The rest (`...`) operator gathers elements into an array or collects function arguments into an array.
+    - The spread (`...`) operator spreads elements of an array or object into individual elements.
+
+2. **What Is Arguments Keyword**:
+    - The `arguments` keyword is an array-like object available inside functions that contain the values of all the arguments passed to that function.
+
+3. **How to Make an Object Immutable**:
+    - Object immutability can be achieved by using `Object.freeze()` to prevent changes to object properties.
+
+4. **State Method in Object Class**:
+    - There isn't a specific `state` method in the Object class in JavaScript.
+
+5. **How to Make a Class Abstract**:
+    - JavaScript doesn’t have built-in abstract classes, but you can simulate them by throwing an error if an abstract method is not implemented in the subclass.
