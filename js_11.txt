@@ -1,0 +1,16 @@
+1. **What Is `instanceof`**:
+    - `instanceof` is an operator in JavaScript that checks whether an object is an instance of a particular class or constructor.
+
+2. **Why We Need Getters and Setters in JS, List Down Predefined Getters/Setters**:
+    - Getters and setters provide controlled access to object properties. Predefined getters/setters include `Object.getOwnPropertyDescriptor()`, `Object.defineProperty()`, `get`, and `set`.
+
+3. **All Exceptions Are Derived From Which Class**:
+    - In JavaScript, all exceptions are instances of the `Error` object or its subclasses like `SyntaxError`, `TypeError`, etc.
+
+4. **Difference Between `console.log`, `document.write`, `innerHTML`**:
+    - `console.log()` is used to log messages to the console for debugging purposes.
+    - `document.write()` writes HTML expressions or strings to a document (mostly used for testing, not recommended for production).
+    - `innerHTML` is a property that represents the HTML content within an element and can be used to read or change the content.
+
+5. **What Is `bind` Method**:
+    - The `bind()` method creates a new function that, when called, has its `this` keyword set to a specific value. It's often used for setting the context of a function explicitly.
