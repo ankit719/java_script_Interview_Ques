@@ -1,0 +1,14 @@
+1. **Can We Change Getter/Setter Names**:
+    - No, you cannot change the names of getters and setters directly; they are defined by their property names.
+
+2. **By Default, Members of Class Are**:
+    - In JavaScript, by default, class members are public.
+
+3. **What `hasOwnProperty` Returns and Its Use**:
+    - `hasOwnProperty` is a method in JavaScript that returns a boolean indicating whether the object has the specified property as its own property, not inherited from its prototype chain.
+
+4. **How to Declare Private Variables in JS**:
+    - In JavaScript, privacy can be simulated using closures. By defining variables inside a function, they are inaccessible from the outside scope.
+
+5. **How to Indicate That a Variable Is Protected**:
+    - JavaScript doesn't have a built-in concept of protected variables like some other languages. Conventionally, an underscore (`_`) prefix is used to denote a variable as "protected," indicating that it shouldn’t be accessed or modified directly.
