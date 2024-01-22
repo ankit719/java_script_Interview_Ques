@@ -1,0 +1,15 @@
+
+1. **Can We Have Static Private Methods**:
+    - JavaScript doesn't have native support for static private methods. Private methods can't be accessed outside their enclosing scope.
+
+2. **Can I Have Static Variables in JS [ES8]**:
+    - JavaScript (up to ES2021) doesn’t have a native concept of static variables within classes. However, you can achieve similar behavior by using closures or creating static properties/methods.
+
+3. **What Is a Generator Method and `yield` Keyword**:
+    - Generator methods are special functions that can be paused and resumed, generating a sequence of values using the `yield` keyword. `yield` pauses the function and returns the yielded value.
+
+4. **How to Include a `.js` File in HTML**:
+    - Use the `<script>` tag with the `src` attribute pointing to the JavaScript file: `<script src="filename.js"></script>`.
+
+5. **When `onclick` Event Gets Fired**:
+    - The `onclick` event gets fired when a user clicks an HTML element that has an `onclick` attribute or when the `click()` method is called programmatically on that element.
