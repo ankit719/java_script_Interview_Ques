@@ -1,0 +1,15 @@
+1. **How to Redirect User to Another Page**:
+    - You can redirect users to another page using `window.location.href` or `window.location.replace()`.
+
+2. **How to Open a File in a New Window**:
+    - You can use `window.open('fileUrl')` to open a file in a new browser window.
+
+3. **Difference Between `alert` and `prompt`
+    - `alert` is used to display a message in a pop-up dialog box with an OK button.
+    - `prompt` is used to display a message with an input field where the user can enter data. It also has an OK and Cancel button.
+
+4. **Use of `confirm` and Its Return Value [OK/Cancel]**:
+    - `confirm` displays a pop-up dialog with a message and OK/Cancel buttons. It returns `true` if the user clicks OK and `false` if they click Cancel.
+
+5. **How to Convert String to Int/Float**:
+    - `parseInt()` and `parseFloat()` functions are used to convert a string to an integer or float, respectively.
