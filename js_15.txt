@@ -1,0 +1,17 @@
+
+1. **Use of `+` Operator**:
+    - The `+` operator in JavaScript is used for addition when applied to numbers and for concatenation when used with strings.
+
+2. **Which Method Is Used to Delay the Execution of a Task**:
+    - `setTimeout()` method is used to delay the execution of a function or a code snippet after a specified amount of time (in milliseconds).
+
+3. **Which Method Is Used to Do the Job After a Few Milliseconds**:
+    - As mentioned earlier, `setTimeout()` can be used to execute a job after a specified delay.
+
+4. **What Is the Use of `eval`**:
+    - `eval()` is a function in JavaScript that evaluates a string as code. It’s powerful but can also be dangerous if used improperly because it executes any code passed to it.
+
+5. **List Down All Methods of the Window Class**:
+    - Some of the methods of the `window` object in JavaScript include `alert()`, `confirm()`, `setTimeout()`, `setInterval()`, `open()`, `close()`, `localStorage`, `sessionStorage`, etc.
+
+That's a comprehensive list of JavaScript-related concepts and methods. If you need more details on any specific topic or have further questions, feel free to ask!
