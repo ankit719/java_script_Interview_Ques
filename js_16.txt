@@ -1,0 +1,16 @@
+
+1. **Fastest Selector in DOM**:
+   - `getElementById` is considered one of the fastest selectors in the DOM because it directly accesses an element using its unique ID.
+
+2. **What is DOM**:
+   - The Document Object Model (DOM) is a programming interface for web documents. It represents the structure of a document as a tree of objects that can be manipulated with programming languages like JavaScript.
+
+3. **Get Collection of All Classes in a Specific Tag**:
+   - `classList` provides a collection of all classes on a particular element.
+   - `document.querySelector('tagname').classList` provides a collection of classes for the specified tag.
+
+4. **How to Add CSS Class Dynamically**:
+   - `classList.add('classname')` adds a CSS class dynamically to a specific tag.
+
+5. **How to Remove CSS Class Dynamically**:
+   - `classList.remove('classname')` removes a CSS class dynamically from a specific tag.
