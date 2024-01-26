@@ -1,0 +1,14 @@
+1. **How to Replace One CSS Class with Another**:
+   - `classList.replace('oldClass', 'newClass')` replaces one CSS class with another on a specific tag.
+
+2. **How to Replace Content of a Specific Tag**:
+   - `innerHTML` allows you to replace the content inside a tag.
+
+3. **How to Toggle CSS Class**:
+   - `classList.toggle('classname')` toggles the presence of a CSS class on a specific tag.
+
+4. **How to Change HTML Attribute Dynamically**:
+   - `setAttribute('attribute', 'value')` changes the HTML attribute of an element dynamically.
+
+5. **How to Read HTML Attribute Dynamically**:
+    - `getAttribute('attribute')` reads the HTML attribute of an element dynamically.
