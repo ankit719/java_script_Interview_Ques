@@ -1,0 +1,16 @@
+1. **`nodeName` of Document, Text, Element**:
+    - Document: `#document`
+    - Text: `#text`
+    - Element: `tagname` (e.g., `div`, `p`, `span`)
+
+2. **How to Read Value via DOM**:
+    - For instance, to read the text inside the `<b>` tag within a `<p>` tag: `getElementById("pr").childNodes[1].childNodes[0].nodeValue`.
+
+3. **How to Read Value of a Textbox**:
+    - `getElementById("INP").value` reads the value of a textbox with the ID `INP`.
+
+4. **Key to Check Whether Checkbox or Radio is Selected**:
+    - For checkboxes and radio buttons, you can use the `checked` property to check if they are selected.
+
+5. **Key to Check Which Option is Selected**:
+    - The `selected` property helps determine which option is selected within a `<select>` element.
